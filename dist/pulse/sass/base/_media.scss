@@ -1,0 +1,208 @@
+@media (max-width: 991px) {
+    .header {
+       justify-content: space-around;
+        }
+    .promo {
+        &__wrapper{
+            width: 90%;
+        }
+       
+    }
+    .consultation {
+        text-align: center;
+        h2 {
+            text-align: center;
+            font-size: 35px;
+        }
+        .feed-form {
+            margin: 15px auto;
+        }
+    }
+    .catalog {
+        h2 {
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        h1 {
+            font-size: 37px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+        .header {
+            &__logo {
+                display: none;
+            }
+            &__official {
+                display: none;
+            }
+            &__contacts {
+                margin: 0 auto;
+            }
+        }
+    }
+    .advantages__item {
+        max-width:205px;
+    }
+    .catalog {
+        &__tabs {
+            padding-right: 24px;
+        }
+        &__column {
+            max-width:50%;
+
+        }
+    }
+    .feed {
+        &__img {
+            padding-left: 12px;
+        }
+        &__text {
+            padding-right: 26px;   
+            text-align: justify;
+        }
+    }
+
+    .carousel {
+        &__inner {
+            width: 80%;
+        }
+    }
+    //.footer__info {
+        //width: 70%;
+        //height: 70%;
+    //}
+}
+
+@media (max-width: 575px) {
+    .promo {
+        h1 {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 15px;
+            text-align: center;
+        }
+        &__icons {
+            width:264px;
+        }
+        .button_main {
+            width: 264px;
+        }
+        &__wrapper {
+            margin: 90px auto 0 auto;
+            align-items: center;
+        }
+        
+    }
+    .slick-slide img {
+        max-width: 256px;
+        
+    }
+    .consultation {
+        h2 {
+            font-size: 21px;
+        }
+        &__descr {
+            font-size: 17px;
+        }
+        .feed-form {
+            width:232px;
+        }
+    }
+    .catalog {
+        h2 {
+            margin: 0 0 0 21px;
+        }
+        &__tabs {
+            flex-direction: column;
+
+        }
+        &__tab {
+            width: 171px;
+            margin:0 auto 10px auto;
+        }
+        &__row {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        &__column {
+            max-width:none;
+            padding: 0;
+            margin: 0 auto;
+        }
+    }
+    
+    .advantages{
+        
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__item {
+            max-width: 424px;
+            
+        }
+        &__descr {
+            text-align: center;
+            a {
+                display: block;
+            }
+        }
+        &__icon {
+            &_animated {
+                animation:none;
+            }
+        }
+
+        
+        
+    }
+    .carousel {
+        &__inner {
+            width: 80%;
+        }
+    }
+    .catalog {
+        &__actual-price {
+            font-size: 18px;
+        }
+    }
+    .feed {
+        &__img {
+            padding-left: 10px;
+            width:120px;
+            height: 120px;
+        }
+        &__text {
+            padding-right: 26px;   
+            text-align: justify;
+            margin-left: 18px;
+        }
+    }
+    .footer{
+        &__info {
+            width:320px;
+            height: 320px;
+        }
+        &__social {
+            justify-content: space-between;
+            &-item {
+                margin: 0;
+            }
+        }
+    }
+    .modal {
+        width: 300px;
+        &__close {
+            right: 10px;
+            top: 10px;
+        }
+    
+    }
+    .feed-form {
+        width:220px;
+    }
+}
